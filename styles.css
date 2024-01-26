@@ -30,13 +30,18 @@ body {
 }
 
 .aboutMe-container{
-    display: block;
+    display: flex;
     background-color: #6948a3;
     border-radius: 25px;
     padding: 10px;
     margin: 2%;
     width: 50%;
 
+}
+
+.headshot{
+    border-radius: 100%;
+    max-width: 40%;
 }
 
 .aboutMe-content{
@@ -88,3 +93,13 @@ body {
     padding-bottom: 50px;
     max-height: fit-content;
 }
+
+.more{
+    color: white;
+    text-decoration: none;
+}
+
+.more:hover{
+    color:#6948a3;
+    background-color: #ba98f5;
+    }
