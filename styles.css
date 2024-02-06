@@ -10,7 +10,7 @@ PRIMARY STYLES
 body {
     padding: 0;
     margin: 0;
-    background-color: #9ae69c;
+    background-color: #e0f8e1;
 }
 
 .content{
@@ -19,14 +19,17 @@ body {
     margin: 5%;
 }
 
-.name{
-    display: block;
+.name-container{
     background-color:#3e8241;
-    margin: 0px;
-    padding: 15px;
-    border: 400%;
-    text-align: right;
-    max-height: fit-content;
+    margin:1%;
+    border-radius: 10px;
+    padding:1%
+}
+
+.name {
+    text-align: end;
+    font-weight:bold;
+    margin-right: 2%;
 }
 
 .aboutMe-container{
@@ -34,14 +37,21 @@ body {
     background-color: #6948a3;
     border-radius: 25px;
     padding: 10px;
-    margin: 2%;
+    margin: 5%;
     width: 50%;
 
 }
 
+.aboutMe-title {
+    font-weight:bold;
+}
+
 .headshot{
     border-radius: 100%;
-    max-width: 40%;
+    max-width: 19%;
+    margin-top: 1%;
+    margin-left: 25%;
+    position:absolute
 }
 
 .aboutMe-content{
@@ -68,6 +78,7 @@ body {
 
 .projects-title {
     padding-left: 10px;
+    font-weight:bold;
 }
 
 .projects-content{
@@ -84,14 +95,32 @@ body {
     /*max-width: fit-content;*/
 }
 
+.project-link {
+    width: fit-content;
+}
+
+.thumbnail {
+    width: 160px;
+    margin-bottom: 10%;
+    border-radius: 50%;
+    /*border: #6948a3; *add glow?*/
+}
+
 .more-container{
     display: block;
+    /*position: absolute;*/
+    bottom: 0;
     background-color: #3e8241;
     margin: 0px;
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 50px;
     max-height: fit-content;
+    width: 100%;
+}
+
+.more-title {
+    font-weight:bold;
 }
 
 .more{
