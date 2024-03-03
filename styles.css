@@ -11,21 +11,12 @@ body {
     padding: 0;
     margin: 0;
     background: url(wall.png);
-    
-   /* background-color: #f2fdf2; */
 }
 
 .content{
     display: flex;
     align-items: stretch;
     margin: 5%;
-}
-
-.name-container{
-    /*background-color:#3e8241; */
-    margin:1%;
-    border-radius: 10px;
-    padding:1%
 }
 
 .name {
@@ -38,7 +29,6 @@ body {
 .aboutMe-container{
     display: flex;
     background-color: #6948a3;
-    /*border-radius: 25px;*/
     padding: 10px;
     margin: 5%;
     width: 50%;
@@ -71,7 +61,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #6948a3;
-    /*border-radius: 20px;*/
     margin: 1%;
     padding: 5px;
     width: 50%;
@@ -92,7 +81,6 @@ body {
     flex-grow: 1;
     color: black;
     background-color: #ba98f5;
-    /*border-radius: 20px;*/
     margin: 2%;
     padding: 5px;
     /*max-width: fit-content;*/
@@ -109,19 +97,19 @@ body {
     /*border: #6948a3; *add glow?*/
 }
 
+footer {
+   background: url(wall-bottom.png) bottom repeat-x; 
+}
+
 .more-container{
     display: block;
-    /*position: absolute;*/
-    bottom: 0;
-    background: url(wall-bottom.png);
-    background-position: bottom;
-   /* background-color: #3e8241;*/
+    /*position: absolute;
+    bottom: 0; */
     margin: 0px;
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 50px;
     max-height: fit-content;
-    width: 100%;
 }
 
 .more-title {
