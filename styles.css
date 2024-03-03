@@ -10,7 +10,9 @@ PRIMARY STYLES
 body {
     padding: 0;
     margin: 0;
-    background-color: #e0f8e1;
+    background: url(wall.png);
+    
+   /* background-color: #f2fdf2; */
 }
 
 .content{
@@ -20,7 +22,7 @@ body {
 }
 
 .name-container{
-    background-color:#3e8241;
+    /*background-color:#3e8241; */
     margin:1%;
     border-radius: 10px;
     padding:1%
@@ -30,12 +32,13 @@ body {
     text-align: end;
     font-weight:bold;
     margin-right: 2%;
+    color: white;
 }
 
 .aboutMe-container{
     display: flex;
     background-color: #6948a3;
-    border-radius: 25px;
+    /*border-radius: 25px;*/
     padding: 10px;
     margin: 5%;
     width: 50%;
@@ -56,7 +59,7 @@ body {
 
 .aboutMe-content{
     background-color: #ba98f5;
-    border-radius: 20px; 
+    /*border-radius: 20px; */
     padding: 5px;
     margin: 0;
     max-width: fit-content;
@@ -68,8 +71,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #6948a3;
-    border-radius: 20px;
-    margin: 2%;
+    /*border-radius: 20px;*/
+    margin: 1%;
     padding: 5px;
     width: 50%;
     color: white;
@@ -89,7 +92,7 @@ body {
     flex-grow: 1;
     color: black;
     background-color: #ba98f5;
-    border-radius: 20px;
+    /*border-radius: 20px;*/
     margin: 2%;
     padding: 5px;
     /*max-width: fit-content;*/
@@ -110,7 +113,9 @@ body {
     display: block;
     /*position: absolute;*/
     bottom: 0;
-    background-color: #3e8241;
+    background: url(wall-bottom.png);
+    background-position: bottom;
+   /* background-color: #3e8241;*/
     margin: 0px;
     padding-top: 10px;
     padding-left: 20px;
@@ -121,6 +126,7 @@ body {
 
 .more-title {
     font-weight:bold;
+    color: white;
 }
 
 .more{
