@@ -8,7 +8,6 @@ PRIMARY STYLES
 }
 
 body {
-    padding: 0;
     margin: 0;
     background: url(wall.png);
 }
@@ -23,6 +22,7 @@ body {
     text-align: end;
     font-weight:bold;
     margin-right: 2%;
+    margin-top: 4%;
     color: white;
 }
 
