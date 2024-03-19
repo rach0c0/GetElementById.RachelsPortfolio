@@ -10,7 +10,7 @@ PRIMARY STYLES
 
 
 body {
-    background: url(wall.png);
+    background: url(images/wall.png);
     min-height: 100vh;
     position: relative;
 }
@@ -22,10 +22,28 @@ body {
 .name {
     text-align: center;
     font-weight:bold;
+    text-wrap: nowrap;
     font-size: 3vw;
     color: white;
     border-bottom: solid 15px;
 }
+
+/*
+footer {  
+   background: url(images/wall-bottom.png) bottom repeat-x;
+   position: absolute bottom;
+   bottom: 0;
+}
+
+.closeNote {
+   color:grey;
+   text-align: center; 
+} */
+
+
+/*====================================
+Framed picture wall collage effect 
+======================================*/
 
 .classyImage-frame{
     width: fit-content;
@@ -63,7 +81,6 @@ body {
 
 .aboutMe {
     width: 25vw;
-    height: 70vh;
 }
 
 .skillList-container {
@@ -103,14 +120,8 @@ body {
 .thumbnail2 {
     width: 14vw;
 }
-/*
-footer {  
-   background: url(wall-bottom.png) bottom repeat-x;
-   position: absolute bottom;
-   bottom: 0;
-}
 
-.closeNote {
-   color:grey;
-   text-align: center; 
-} */
+/* ==================================
+Thumbnail Image Hover effects 
+=====================================*/
+
