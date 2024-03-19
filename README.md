@@ -9,9 +9,9 @@ https://getelementbyid-portfolio.netlify.app/
 <ol>
   <li>I created a map in google slides to plan out where each image placement optimizing space and ensuring a visually pleasing flow
   <br/>
-  ![image(./GetElementById.RachelsPortfolio/Screenshot1.png)
+  ![image(images/Screenshot1.png)
   <br/>
-  ![image](./GetElementByID.RachelsPortfolio/Screenshot2.png)
+  ![image](images/Screenshot2.png)
 </li>
   <li>Created a background element to resemble a wall</li>
   <li>Utalized Bootsrap to create site layot</li>
