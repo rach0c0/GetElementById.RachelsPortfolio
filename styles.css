@@ -1,12 +1,11 @@
-@-ms-viewport{width: device-width; }
+@-ms-viewport{width: device-width; height: device-height;}
 /*
 ================================================================================
 PRIMARY STYLES
 ================================================================================*/
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-   border: solid 1px rgba(0, 0, 0, 0);
+    border: solid 1px rgba(0, 0, 0, 0);
 }
 
 
@@ -28,22 +27,41 @@ body {
     border-bottom: solid 15px;
 }
 
+.classyImage-frame{
+    width: fit-content;
+    height: fit-content;
+    background: linear-gradient(#f0eeea, #8e8f8e);
+    padding: 15px;
+    box-shadow: #001a08c9 0px 10px 36px 0px, #06290f7a 0px 0px 0px 15px;
+}
+
 .classyImage {
-    border: solid 20px;
-    border-image: linear-gradient(#f0eeea, #8e8f8e) 30;
     width: 12vw;
 }
 
-.headshot{
-    border: outset 10px;
-    border-image: linear-gradient(#f0eeea, #8e8f8e) 30;
-    border-radius:100px;
+.headshot-frame {
+    width: fit-content;
+    height: fit-content;
+    background: linear-gradient(#f0eeea, #8e8f8e);
+    padding: 10px;
+    box-shadow: #001a08c9 0px 10px 36px 0px, #06290f7a 0px 0px 0px 15px;
+    border-radius: 50%;
+}
+
+.headshot{ 
+    border-radius: 50%;
     width: 14vw;
 }
 
+.aboutMe-frame {
+    width: fit-content;
+    height: fit-content;
+    background: linear-gradient(#f0eeea, #8e8f8e);
+    padding: 20px;
+    box-shadow: #001a08c9 0px 10px 36px 0px, #06290f7a 0px 0px 0px 15px;
+}
+
 .aboutMe {
-    border: outset 20px;
-    border-image: linear-gradient(#f0eeea, #8e8f8e) 30;
     width: 25vw;
     height: 70vh;
 }
@@ -53,22 +71,36 @@ body {
     border: outset 10px;
     border-image: linear-gradient(#f0eeea, #8e8f8e) 30;
     width: fit-content;
+    box-shadow: #001a08c9 0px 10px 36px 0px, #06290f7a 0px 0px 0px 15px;
 }
 
 .skillList {
     color: black;
 }
 
-.thumbnail {
-    border: solid 10px;
-    border-image: linear-gradient(#f0eeea, #8e8f8e) 30;
+.thumbnail1 {
     width: 14vw;
     border-radius: 50%;
 }
 
+.thumbnail1-frame {
+    width: fit-content;
+    height: fit-content;
+    background: linear-gradient(#f0eeea, #8e8f8e);
+    padding: 10px;
+    box-shadow: #001a08c9 0px 10px 36px 0px, #06290f7a 0px 0px 0px 15px;
+    border-radius: 50%;
+}
+
+.thumbnail2-frame {
+    width: fit-content;
+    height: fit-content;
+    background: linear-gradient(#f0eeea, #8e8f8e);
+    padding: 10px;
+    box-shadow: #001a08c9 0px 10px 36px 0px, #06290f7a 0px 0px 0px 15px;
+}
+
 .thumbnail2 {
-    border: solid 20px;
-    border-image: linear-gradient(#f0eeea, #8e8f8e) 30;
     width: 14vw;
 }
 /*
